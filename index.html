@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Hooman's Personal Page</title>
+<script  type="text/javascript" src="Jquery.js"></script>
+<script type="text/javascript" src="myjs.js"></script>
+<link href="mystyle.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="check()">
+<div class="contents" style="margin-left:100px;width:740px;">
+<ul class="contents">
+  <!--<li><button id="close" type="button" onclick="closewindow()"><b>X</b></button></li>-->
+  <li><button id="bio"type="button" onclick="showsbio()">Bio</button></li>
+  <li><button id="rt" type="button" onclick="showsma()">My Activities</button></li>
+  <li><button id="bio" type="button" onclick="showsContact()">Contact</button></li>
+  <li><button id="bio" type="button" onclick="showsRa()">Coming Soon</button></li>
+</ul>
+</div>
+<div class="main_divs" id="maindiv"> 
+<div style="height:10px;"></div>
+<div>
+<div class="header" style="width:500px;height:300px;float:left;">
+<h1 class="header" id="myheader" style="width:400px;">Hooman Malekzadeh</h1>
+<hr>
+<p class="text" id="demo" style="text-align:center">Click on the buttons on top of the page to show content...</p>
+<p class="text" id="sport" style="display:none"></p>
+<p class="text" id="gaming" style="display:none"></p>
+<br>
+<button type="button" id="showxbl" style="display:none">Show My Xbox Live Account</button>
+<br>
+<iframe id="xbl" style="display:none" scrolling="no" width="204" height="140" frameborder="0" src="http://gamercard.xbox.com/Sh4dOw%20HuN7eR%20X.card">
+
+    #document
+        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+        <html lang="eng" xmlns="http://www.w3.org/1999/xhtml" style="">
+            <head> … </head>
+            <body>
+                <div class="XbcGamercard Silver Male ">
+                    <a id="Gamertag" href="http://live.xbox.com/en-US/Profile?Gamertag=Sh4dOw%20HuN7eR%20X">
+
+                        Sh4dOw HuN7eR X
+
+                    </a>
+                    <a href="http://live.xbox.com/en-US/Profile?Gamertag=Sh4dOw%20HuN7eR%20X"> … </a>
+                    <div class="RepContainer"> … </div>
+                    <div class="GamerscoreContainer"> … </div>
+                    <div id="Location"> … </div>
+                    <div id="Motto"> … </div>
+                    <div id="Name"> … </div>
+                    <div id="Bio"> … </div>
+                    <ol id="PlayedGames"> … </ol>
+                </div>
+            </body>
+        </html>
+
+</iframe>
+<p class="text" id="programming" style="display:none"></p>
+<p id="date"></p>
+<p id="tos" style="color:#FFF"></p>
+<!--<p id="version" style="color:white"></p>-->
+
+</div>
+<div class="header" style="float:left;margin-top:30px">
+<img id="mypic" class="header"  src="myimage.png" style="margin-left:20px;z-index:2;height=400;width:300px;">
+</div>
+</div>
+
+<!--<img class="myimage" src="logo.png" style="position:fixed;poistion:right-top;margin-left:100px;">-->
+</div>
+
+<script>
+setInterval("showdate()",1000);
+</script>
+
+</body>
+</html>

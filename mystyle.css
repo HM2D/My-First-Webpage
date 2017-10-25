@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+body {background: url(background-1.jpg) no-repeat center center fixed;background-size: cover;}
+
+h1 {color:silver;font-family: "Lithos Pro Regular";}
+p.text::first-letter {font-size:xx-large;color:red}
+p.text {margin-left:20px;margin-top:1px;color:silver;font-family:"comic sans ms"}
+h1.header {margin-left:20px;color:silver;text-shadow: 5px 5px 5px red;}
+div.main_divs {border: 2px solid black;border-radius: 25px;background-position:center;background-color:black;}
+div.main_divs {z-index:-1;margin-top:20px;margin-left:100px;height:500px;width:1000px;}
+div.header{margin-left:63px}
+div.menu{margin-top:20px;margin-left:20px;height:300px;width:100px;}
+ul.contents {list-style-type:none;color:white;font-size:xx-large;background-color:black;border-radius:2px;}
+li {display: inline;}
+/*img:hover {opacity:1.0}*/
+ul[class=contents]{border: 5px solid black;border-radius:25px}
+p[class=text]{word-wrap: break-word;}
+img[class=header]{ transition: transform 1s;}
+img[class=header]:hover{transform: scale(1.5,1.5);}
+div[class=contents]{-webkit-animation: jump 2s;animation: jump 2s;}
+@-webkit-keyframes slide2{0%{margin-left:0px}50%{margin-left:300px}100%{margin-right:300px}}
+@-webkit-keyframes slide{0%{margin-left:0px}50%{margin-left:300px}100%{margin-right:300px}}
+@-webkit-keyframes jump{from{margin-left:500px;}to{margin-left:100px;}}
+@keyframes jump{from{margin-left:500px;}to{margin-left:100px;}}
+div[class=main_divs]{-webkit-animation: jump1 2s}
+@-webkit-keyframes jump1{from{margin-top:300px;}to{margin-top:0px;}}
+/*#mypic {-webkit-animation: rot 2s}
+@-webkit-keyframes rot{from{transform:rotate(180deg);}to{transform:rotate(0deg);}}
+*/
+button[id=bio]{background-color:black;border: 2px solid white;border-radius: 25px;width:150px;height:50px;font-family:"comic sans ms";font-size:15px;color:white;}
+button[id=rt]{background-color:black;border: 2px solid white;border-radius: 25px;width:150px;height:50px;font-family:"comic sans ms";font-size:15px;color:white;}
+button{ transition: transform 1s;}
+button:hover{transform: scale(1.25,1.25);}
+button[id=showxbl]{transform:none;background-color:black;border: 2px solid white;border-radius: 25px;font-family:"comic sans ms";font-size:15px;color:white;}
+#date {color:white;font-family: "comic sans ms";}
+@-webkit-keyframes resize{from{margin-left: 200px;transform: scale(2,2)}to{margin-right:200px;transform:scale(1,1)}}
+button[id=close]{background-color:black;border: 2px solid white;border-radius: 25px;width:30px;height:50px;font-family:"comicsans ms";font-size:15px;color:white;color:Red;}
+iframe{ border: 2px solid grey; border-radius:25px;}
+ @-webkit-keyframes rot{0%{transform:rotate(0);}50%{transform:rotate(180deg);}100%{transform:rotage(360deg);}}
